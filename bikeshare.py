@@ -1,7 +1,7 @@
 import time
 import pandas as pd
 import numpy as np
-
+"""Purpose: To Analyze bikeshare data for 3 cities"""
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
@@ -28,7 +28,7 @@ def get_filters():
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     day = input("Input day:").lower()
 
-    print('-'*40)
+    print('-'*50)
     return city, month, day
 
 
